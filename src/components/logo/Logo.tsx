@@ -13,8 +13,8 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }: React.PropsWith
       ref={ref}
       component="div"
       sx={{
-        width: 200,
-        height: 70,
+        width: 150,
+        height: 80,
         display: 'inline-flex',
         ...sx,
       }}
