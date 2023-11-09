@@ -1,0 +1,26 @@
+.img-wrap-upload {
+    position: relative;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+}
+
+.img-wrap-upload  > button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: red;
+    justify-content: flex-end;
+    padding: 0;
+    height: 30px;
+    border: 0px;
+}
+
+.img-wrap-upload  > button:hover {
+    border: 0px;
+    background-color: transparent !important;
+}
+
+.img-wrap-upload  > button:hover > span,
+.img-wrap-upload  > button:active span {
+    display: none;
+}
